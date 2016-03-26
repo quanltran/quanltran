@@ -1,0 +1,104 @@
+DEBUG 2016-03-24 16:28:09,511   107ms HomeController         Index              - GET new list
+DEBUG 2016-03-24 16:44:47,948   104ms HomeController         Index              - GET new list
+DEBUG 2016-03-24 16:45:11,305 23461ms HomeController         Index              - GET new list
+DEBUG 2016-03-24 16:47:33,569   105ms HomeController         Index              - GET new list
+DEBUG 2016-03-24 16:47:54,975 21511ms HomeController         Index              - GET new list
+DEBUG 2016-03-24 16:48:08,718 35253ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 08:22:31,962   105ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 08:23:50,805 78948ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:00:11,971   102ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:00:40,950 29081ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:11:58,298   105ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:12:32,110 33917ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:12:36,043 37851ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:12:37,617 39424ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:13:18,720 80527ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:20:36,394 518202ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:23:12,230 674038ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:25:19,266 801073ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:26:47,814 889622ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:29:52,546 1074354ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:29:58,224 1080032ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:30:09,225 1091033ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:47:01,771   101ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:53:23,440   107ms HomeController         Index              - GET new list
+ERROR 2016-03-25 09:53:32,522  9190ms HomeController         Post               - System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at KMS.Twitter.TwitterConnection.GetResponse(String resourceUrl, String methodName, SortedDictionary`2 requestParameters) in D:\Code-Quality\launch-05-net-code-quality\KMS.Twitter\KMS.Twitter\TwitterHelper\TwitterConnection.cs:line 75
+   at KMS.Twitter.TwitterConnection.PostTweets(String status) in D:\Code-Quality\launch-05-net-code-quality\KMS.Twitter\KMS.Twitter\TwitterHelper\TwitterConnection.cs:line 46
+   at KMS.Twitter.TwitterHelper.TwitterServices.PostTweets(String status) in D:\Code-Quality\launch-05-net-code-quality\KMS.Twitter\KMS.Twitter\TwitterHelper\TwitterServices.cs:line 50
+   at KMS.Twitter.Controllers.HomeController.Post(String status) in D:\Code-Quality\launch-05-net-code-quality\KMS.Twitter\KMS.Twitter\Controllers\HomeController.cs:line 36
+DEBUG 2016-03-25 09:55:22,591 119259ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:55:31,204 127872ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:55:37,245 133913ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:55:40,036 136703ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:55:52,708 149376ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:56:07,829 164497ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 09:56:08,000 164667ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 10:00:05,015 401682ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 10:00:09,618 406286ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 10:00:09,802 406470ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 10:01:13,098   104ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 10:01:56,578 43584ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 10:02:08,101 55107ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 10:02:43,335 90341ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 10:03:41,438 148444ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 10:03:50,397 157402ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 10:03:56,514 163520ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 10:05:24,176 251182ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 10:33:21,868   107ms HomeController         Index              - GET new list
+ERROR 2016-03-25 10:33:29,269  7508ms HomeController         Post               - System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at KMS.Twitter.TwitterConnection.GetResponse(String resourceUrl, String methodName, SortedDictionary`2 requestParameters) in D:\Code-Quality\launch-05-net-code-quality\KMS.Twitter\KMS.Twitter\TwitterHelper\TwitterConnection.cs:line 75
+   at KMS.Twitter.TwitterConnection.PostTweets(String status) in D:\Code-Quality\launch-05-net-code-quality\KMS.Twitter\KMS.Twitter\TwitterHelper\TwitterConnection.cs:line 46
+   at KMS.Twitter.TwitterHelper.TwitterServices.PostTweets(String status) in D:\Code-Quality\launch-05-net-code-quality\KMS.Twitter\KMS.Twitter\TwitterHelper\TwitterServices.cs:line 50
+   at KMS.Twitter.Controllers.HomeController.Post(String status) in D:\Code-Quality\launch-05-net-code-quality\KMS.Twitter\KMS.Twitter\Controllers\HomeController.cs:line 35
+DEBUG 2016-03-25 10:33:44,162 22401ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 10:34:22,758   114ms HomeController         Index              - GET new list
+ERROR 2016-03-25 10:34:42,087 19443ms HomeController         Post               - The remote server returned an error: (403) Forbidden.
+DEBUG 2016-03-25 10:35:02,414 39770ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 10:35:08,882 46238ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 10:46:53,729   102ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 10:48:33,300   101ms HomeController         Index              - GET new list
+ERROR 2016-03-25 10:48:52,151 18951ms HomeController         Post               - The remote server returned an error: (401) Unauthorized.
+ERROR 2016-03-25 10:49:48,281 75081ms HomeController         Post               - The remote server returned an error: (401) Unauthorized.
+DEBUG 2016-03-25 10:50:14,915   102ms HomeController         Index              - GET new list
+ERROR 2016-03-25 10:50:29,571 14757ms HomeController         Post               - The remote server returned an error: (401) Unauthorized.
+DEBUG 2016-03-25 10:50:36,543 21729ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 10:50:42,995 28181ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 13:46:20,120   103ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 13:47:48,260 88243ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 13:47:51,700 91683ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 13:49:00,741 160724ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 14:06:42,717   102ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 14:06:52,627 10012ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 14:06:53,224 10609ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 14:06:58,018 15402ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 14:10:13,731   122ms HomeController         Index              - GET new list
+ERROR 2016-03-25 14:10:32,980 19371ms HomeController         Post               - The remote server returned an error: (401) Unauthorized.
+DEBUG 2016-03-25 14:12:20,868   103ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 14:14:45,191 144426ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 14:24:28,306 727541ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 14:24:30,805 730041ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 14:25:21,108 780343ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 14:26:40,148 859383ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 14:36:15,686   115ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 14:36:57,547   110ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 14:37:46,231   106ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 14:38:38,556   104ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 14:39:37,611   101ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 14:42:06,398   107ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 14:42:18,771 12480ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 14:42:22,205 15914ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 15:18:36,831    81ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 15:54:14,784    99ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 15:54:31,201 16516ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 16:05:42,254   116ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 16:06:56,581   103ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 16:07:08,961 12483ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 16:11:55,667 299189ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 16:17:18,272   100ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 16:17:23,624  5452ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 16:17:32,227 14056ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 16:17:36,442 18271ms HomeController         Index              - GET new list
+DEBUG 2016-03-25 16:36:20,935 1142763ms HomeController         Index              - GET new list

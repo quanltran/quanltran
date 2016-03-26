@@ -1,0 +1,34 @@
+﻿@model IEnumerable<KMS.Twitter.Models.TwitterModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<hr />
+
+<h2>List of Tweets</h2>
+<form name="tweetForm" action="@Url.Action("PostStatus", "Home")" onsubmit="return validateForm()" method="post">
+    <input style="margin-top:10px; margin-bottom:10px" type="submit" id="btnTweet" class="btn btn-primary" value="Tweet" />
+    <a href="@Url.Action("Index","Home")" class="btn btn-warning">Refresh</a>
+    <textarea name="status" class="form-control" maxlength="140"></textarea>
+</form>
+
+<hr />
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Content)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Content)
+            </td>
+        </tr>
+    }
+
+</table>
